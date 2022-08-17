@@ -282,3 +282,385 @@ nav svg{
   gap: 30px;
   color: #f5f5f5;
 }
+@media screen and (max-width:415px){
+  body{
+    padding: 0;
+    margin: 0;
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+  nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+  .nav-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+  .nav-item-active{
+    width: 60px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+  }
+  nav :nth-child(7){
+    height: 15px;
+    width: 15px;
+  }
+  .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 90px;
+    position: relative;
+    left: -10px;
+    padding: 10px;
+  }
+
+  .header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    background-color: #4516FE;
+    position: relative;
+    top: -40px;
+  }
+  .header-text h2{
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    width: 260px;
+    justify-content: center;
+    margin: auto;
+  }
+  .header-text p{
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    width: 260px;
+    justify-content: center;
+    margin: auto;
+  }
+  img[src="./images/Rectangle_12.png"]{
+   width: 60px;
+  }
+  .header-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+  img[src="./images/IMAGE HERE.png"]{
+    height: 350px;
+    position: relative;
+    top: -45px;
+    left: 0px;
+  }
+  .companies{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .api{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 800px;
+    left: -50px;
+  }
+  .api-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+  .cards, .card-active, .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    gap: 20px;
+  }
+  .card, .card-active{
+    position: relative;
+    top: 50px;
+    height: 350px;
+    width: 120px;
+  }
+  .blog-heading, .blog-cards{
+    position: relative;
+    top: 1700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    gap: 10px;
+  }
+  .blog-card{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+  }
+  .blog-content h3{
+    font-size: 6px;
+  }
+  .blog-content h6{
+    font-size: 15px;
+  }
+  .blog-content small{
+    font-size: 8px;
+    padding: 10px;
+  }
+  .faq-section{
+    position: relative;
+    top: 1800px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  img[src="./images/Rectangle_38-2 (1).png"]{
+    height: 120px;
+    float: right;
+  }
+  .download-section,.download-content,.download-email{
+    position: relative;
+    top: 900px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }    
+  .download-email input{
+    width: 250px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;      
+  }
+  .download-email button{
+    width: 100px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;     
+  }
+  .footer-section{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 1800px;
+  }
+  .footer-left, .list, .footer-right, .footer-logos, .logos-list, .list-item, .footer-logos{
+    display: flex;
+    flex-direction: column;
+    float: left;
+  }
+}
+@media screen and (max-width:415px){
+    body{
+      padding: 0;
+      margin: 0;
+    }
+    .header{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+    }
+    nav{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+    }
+    .nav-item{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+    }
+    .nav-item-active{
+      width: 60px;
+      justify-content: center;
+      margin: auto;
+      text-align: center;
+    }
+    nav :nth-child(7){
+      height: 15px;
+      width: 15px;
+    }
+    .logo{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+      width: 90px;
+      position: relative;
+      left: -10px;
+      padding: 10px;
+    }
+
+    .header-text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+      position: relative;
+      background-color: #4516FE;
+      position: relative;
+      top: -40px;
+    }
+    .header-text h2{
+      font-size: 20px;
+      display: flex;
+      text-align: center;
+      padding: 10px;
+      width: 260px;
+      justify-content: center;
+      margin: auto;
+    }
+    .header-text p{
+      font-size: 12px;
+      text-align: center;
+      padding: 10px;
+      width: 260px;
+      justify-content: center;
+      margin: auto;
+    }
+    img[src="./images/Rectangle_12.png"]{
+     width: 60px;
+    }
+    .header-image{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+    }
+    img[src="./images/IMAGE HERE.png"]{
+      height: 350px;
+      position: relative;
+      top: -45px;
+      left: 0px;
+    }
+    .companies{
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+    }
+    .api{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+      position: relative;
+      top: 800px;
+      left: -50px;
+    }
+    .api-heading{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+    }
+    .cards, .card-active, .card{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+      padding: 20px;
+      gap: 20px;
+    }
+    .card, .card-active{
+      position: relative;
+      top: 50px;
+      height: 350px;
+      width: 120px;
+    }
+    .blog-heading, .blog-cards{
+      position: relative;
+      top: 1700px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+      padding: 10px;
+      gap: 10px;
+    }
+    .blog-card{
+      height: fit-content;
+      width: fit-content;
+      padding: 10px;
+    }
+    .blog-content h3{
+      font-size: 6px;
+    }
+    .blog-content h6{
+      font-size: 15px;
+    }
+    .blog-content small{
+      font-size: 8px;
+      padding: 10px;
+    }
+    .faq-section{
+      position: relative;
+      top: 1800px;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+    }
+    img[src="./images/Rectangle_38-2 (1).png"]{
+      height: 120px;
+      float: right;
+    }
+    .download-section,.download-content,.download-email{
+      position: relative;
+      top: 900px;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+    }    
+    .download-email input{
+      width: 250px;
+      justify-content: center;
+      margin: auto;
+      text-align: center;      
+    }
+    .download-email button{
+      width: 100px;
+      justify-content: center;
+      margin: auto;
+      text-align: center;     
+    }
+    .footer-section{
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: 1800px;
+    }
+    .footer-left, .list, .footer-right, .footer-logos, .logos-list, .list-item, .footer-logos{
+      display: flex;
+      flex-direction: column;
+      float: left;
+    }
+  }
