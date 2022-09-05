@@ -19,7 +19,7 @@
 
 - I used `flex-box` to almost make all the elements of this project
 - The project was pretty lengthy so I tackled one part at a time
-- I also achieved Mobile Responsiveness by using `flex-direction:column`
+- I also achieved Mobile Responsiveness by using `flex-direction:column` in `@media-queries`
 - Time Consumed to make this page **4 Hours 20 Minutes**
 - Preview
   ![preview](./9.png)
